@@ -123,7 +123,7 @@ export default class App extends Component {
         </nav>
         <section>
           <Switch>
-            <Route exact path='/' component={Home} />
+            <Route exact path='/SWAPI-BOX' component={Home} />
             <Route exact path='/people' render={() => <CardContainer data={peopleData} favoriteStatus={this.updateFavoriteCard} />}/>
             <Route exact path='/planets' render={() => <CardContainer data={planetData} favoriteStatus={this.updateFavoriteCard} />}/>
             <Route exact path='/vehicles' render={() => <CardContainer data={vehicleData} favoriteStatus={this.updateFavoriteCard} />}/>
